@@ -1,0 +1,72 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.lista-tarefa {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    margin-top: 100px;
+    width: 90%;
+    text-align: center;
+}
+
+.formulario h1 {
+    font-size: 40px;
+}
+
+.formulario input {
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.formulario button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:  green;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(2, 101, 2);
+}
+
+ul {
+    color: black;
+    width: 80%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+li p {
+    cursor: pointer;
+    width: 20%;
+    white-space: nowrap;
+}
+
+.marcado {
+    text-decoration: line-through;
+}
+
+
